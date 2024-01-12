@@ -1,3 +1,4 @@
+
 let http=require('http');
 let fs=require('fs');
 let server=http.createServer((req,res)=>{
@@ -37,3 +38,10 @@ let server=http.createServer((req,res)=>{
 server.listen(9000,()=>{
     console.log("server is on")
 })
+
+let http=require("http");
+let server=http.createServer((req,res)=>{
+    res.end("shivam")
+})
+
+server.listen(4000);
